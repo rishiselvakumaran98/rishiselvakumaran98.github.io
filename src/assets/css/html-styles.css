@@ -1,0 +1,36 @@
+.tac {
+    text-align: center;
+}
+
+.tal {
+    text-align: left;
+}
+
+.tac-tdu {
+    text-align: center; 
+    text-decoration: underline;
+}
+
+.tal-tdu {
+    text-align: left; 
+    text-decoration: underline;
+}
+
+#pad-100 {
+    padding: 100px;
+}
+
+.fill-00000 {
+    fill:#000000;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+.border-0 {
+    border:0;
+}
+
+.mbm-normal {
+    mix-blend-mode: normal
+}
