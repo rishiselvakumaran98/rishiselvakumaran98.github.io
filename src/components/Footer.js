@@ -5,7 +5,7 @@ const Footer = () => (
     <footer id="footer">
 		<section>
 			<h2>Like my projects and ideas?</h2>
-			<p> Please feel free to send me a message above or email me, if you have any internship opportunities available for me to contribute. Also, this is a tough time we are living through and if possible please help to donate to the Covid-19 relief in India by clicking on the link below. Thanks!</p>
+			<p> Please send me an email, if you have any full-time Software development opportunities available for me to contribute. Also, it will be wonderful if you could buy me a coffee too!</p>
 			<ul class="actions">
 				<li><a href="https://www.directrelief.org/place/india/" class="button">Learn More</a></li>
 			</ul>
@@ -14,9 +14,9 @@ const Footer = () => (
 			<h2>Contact info</h2>
 			<dl class="alt">
 				<dt>Address</dt>
-				<dd>2601 University Ave SE &bull; Minneapolis, MN 55414 &bull; USA</dd>
+				<dd>6121 Whiskerbrush RD &bull; Argyle, TX 76226 &bull; USA</dd>
 				<dt>Email</dt>
-				<dd><a href="#">rishi.selvakumaran@gmail.com</a></dd>
+				<dd><a href="#">selvakumaranrishi@gmail.com</a></dd>
 			</dl>
 			<ul class="icons">
 				<li><a href="https://www.facebook.com/rishiselvakumaran/" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>

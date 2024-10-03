@@ -1,35 +1,50 @@
-.text_1 {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter;
-    display: inline-block;
-    position: relative;
-    animation-duration: 10s;
-    animation-timing-function: steps(25, end);
-    animation-iteration-count: infinite;
-  }
-  .text_1::after {
-    content: "|";
-    position: absolute;
-    right: 0;
-    animation: caret infinite;
-    animation-duration: 1s;
-    animation-timing-function: steps(1, end);
-  }
+.terminal-box {
+  font-family: "Courier", monospace; /* Set the font to Courier */
+  color: #00ff00; /* Green text to resemble terminal effect */
+  background-color: black; /* Black background for terminal-like look */
+  padding: 10px; /* Optional: Add some padding */
+  width: 15em; /* Fixed width for the terminal box */
+  height: auto; /* Adjust height based on your text */
+  border: 2px solid #00ff00; /* Optional: Add a green border for the terminal box */
+  overflow: hidden; /* Ensure overflow is hidden */
+  position: relative;
+}
 
-  @keyframes typewriter {
-    0%, 100% {
-      width: 0;
-    }
-    20%, 80% {
-      width: 10.2em;
-    }
+.text_1 {
+  color: #00ff00; /* Green text to resemble terminal effect */
+  overflow: hidden;
+  white-space: nowrap; /* Keep the text in one line */
+  display: inline-block;
+  position: relative;
+  border-right: 2px solid #00ff00; /* The caret is part of the text, placed inside the span */
+  /* Typing animation with 5s pause before erasing */
+  /* Typing animation followed by 3s delay and erasing */
+  animation: typewriter 2s steps(25, end) 1s 1 normal both,
+             blinkCaret 1s steps(1) infinite, 
+             erase 1s steps(25, end) 3s 1 reverse forwards;
+
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  @keyframes caret {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
+  to {
+    width: 12.9em; /* Adjust width as per your text length */
   }
+}
+
+@keyframes blinkCaret {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: #00ff00;
+  }
+}
+
+.course-name {
+  text-align: center; /* Center the text */
+  font-weight: bold;  /* Make the text bold */
+  margin-bottom: 10px; /* Add spacing between the course name and responsibilities */
+}

@@ -9,6 +9,14 @@ const ProjectListing = () => {
           </header>
           <ul class="features">
           <li>
+              <span class="icon"><img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=000000"/></span>
+              <h3>MyTeacher GPT</h3>
+              <p>
+              Introducing a project that will brighten your day and make learning a breeze! Meet My Teacher, GPT – your friendly companion for tackling even the trickiest questions with ease. Say goodbye to confusing explanations, as GPT excels at simplifying complex problems, making learning a joy for both kids and adults, including those with learning disabilities. Embrace a simpler way to understand and excel in any subject!
+              </p>
+              <a href="https://github.com/rishiselvakumaran98/MyTeacherGPT" class="button">Learn More</a>
+            </li>
+          <li>
               <span class="icon"><img src="https://img.icons8.com/color/96/000000/commercial-development-management.png"/></span>
               <h3>Employee management App</h3>
               <p>

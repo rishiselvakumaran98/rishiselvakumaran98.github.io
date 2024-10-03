@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from 'react'
-import Image from "../../assets/images/IMG_6028.jpg"
+import Image from "../../assets/images/IMG_6028.jpeg"
 const Aboutme = () =>{
     return(
         <div class="spotlight">
@@ -9,13 +9,7 @@ const Aboutme = () =>{
                 <h2>About Me</h2>
               </header>
               {/* Thanks for visiting my site! */}
-              <p>Hi, there! My name's Rishi Selvakumaran, and I am a rising Senior
-                at the University of Minnesota pursuing my major in Computer Science focusing on Software Engineering and Database Systems.   
-                My main areas of interests include Software Development, Data Engineering, AI, and Machine learning. Ever since a young age, 
-				        I have been passionate about programming and my curiosity led me to learn and develop a lot of Software and web applications. 
-				        I am actively expanding my knowledge in programming and have built fun and exciting web applications for you to view below. 
-				        Do check them out and enjoy!
-                  
+              <p>Hey there! I'm Rishi Selvakumaran, a passionate Software Engineer at Hughes Network Systems. I thrive on building robust, distributed full-stack applications using Java, J2EE, Spring, and Angular. With hands-on experience across teams at Hughes, Miovision, and the University of Minnesota, I’m skilled in Agile and Scrum methodologies and have designed systems for a variety of applications. I’m always eager to dive into new technologies, currently pursuing certifications in CKA and AWS DevOps. I love collaborating on innovative projects and am always open to exciting opportunities—let's connect!
               </p>
             </div>
             <span class="image"><img src={Image} /></span>
