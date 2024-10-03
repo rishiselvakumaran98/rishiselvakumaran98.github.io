@@ -1,43 +1,74 @@
-# [GatsbyJS Stellar](https://appseed.us/apps/gatsbyjs/gatsby-html5up-stellar)
+# Rishi Selvakumaran's Portfolio Website 🌟
 
-GatsbyJS Stellar is an open-source app built with GatsbyJS on top of HTML5Up Stellar design. 
+Welcome to my personal portfolio website! This is where I showcase my skills, projects, and the journey I've taken as a software engineer. You’ll find information about my professional experiences, technical expertise, and the projects I’m most proud of.
 
-> Originally coded by **[Codebushi](https://github.com/codebushi)**.
+## 🚀 About Me
 
-<br />
+Hey! I’m Rishi Selvakumaran, a passionate Software Engineer currently working at Hughes Network Systems. I love building innovative solutions and crafting systems that make an impact. I’m always excited to learn new technologies and push the boundaries of what’s possible in software development.
 
-![GatsbyJS Stellar - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/gatsby-html5up-stellar-intro.gif?raw=true)
+## 💻 Tech Stack
 
-<br />
+This portfolio is built using:
 
-## App Links
+- **Gatsby**: A blazing-fast static site generator for React.
+- **React**: A powerful library for building user interfaces.
+- **Sass**: For styling, because who doesn’t love clean CSS with superpowers?
+- **Yarn**: For package management, keeping everything smooth and fast.
 
-- [GatsbyJS Stellar](https://gatsby-html5up-stellar.appseed.us) - live demo
-- [Stellar](https://html5up.net/stellar) - the design provided by Html5UP 
+## 🎯 Key Features
 
-<br />
+- Showcases my professional experience and projects.
+- Fully responsive and optimized for performance.
+- Hosted with GitHub Pages for easy access.
+- Built using Gatsby for fast static rendering and React for a modern, interactive experience.
 
-## How to use it
-- Clone this repo `git clone https://github.com/app-generator/gatsby-html5up-stellar.git`
-- change directory to `gatsby-html5up-stellar`
-- `yarn` - install modules
-- `yarn start` - start for development
-- `yarn build` - build for production
+## 🛠 Installation
 
-<br />
+If you'd like to run this portfolio locally, here’s how you can do it:
 
-## Support
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/rishiselvakumaran98/React-Portfolio-website.git
+    ```
 
-Please access the official [Support](https://appseed.us/support) page provided by **AppSeed** 
+2. **Navigate into the project directory**:
+    ```bash
+    cd React-Portfolio-website
+    ```
 
-<br />
+3. **Install dependencies**:
+    ```bash
+    yarn install
+    ```
 
-## Resources
- 
- - [GatsbyJS](https://www.gatsbyjs.org/)
- - More [GatsbyJS Apps](https://appseed.us/apps/gatsbyjs)
+4. **Start the development server**:
+    ```bash
+    yarn start
+    ```
 
-<br />
+5. Open your browser and navigate to `http://localhost:8000`. You’ll see the portfolio up and running on your local machine.
 
----
-[GatsbyJS Stellar](https://appseed.us/apps/gatsbyjs/gatsby-html5up-stellar) provided by **AppSeed**
+## 🌍 Deployment
+
+This portfolio is deployed using **GitHub Pages**. Whenever I make updates or add new content, I use the following commands to build and deploy:
+
+```bash
+yarn build
+yarn deploy
+```
+
+The `public` directory gets pushed to the `gh-pages` branch, which makes the site live at:
+
+```
+https://rishiselvakumaran98.github.io/React-Portfolio-website/
+```
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Want to Connect?
+
+If you’d like to reach out for collaboration, project ideas, or just to chat about tech, feel free to contact me through [LinkedIn](https://www.linkedin.com/in/rishi-selvakumaran) or drop me an email at selvakumaranrishi@gmail.com.
+
+Thanks for stopping by and checking out my portfolio! 🚀
