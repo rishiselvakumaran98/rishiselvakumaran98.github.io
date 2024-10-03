@@ -7,7 +7,7 @@ const Footer = () => (
 			<h2>Like my projects and ideas?</h2>
 			<p> Please send me an email, if you have any full-time Software development opportunities available for me to contribute. Also, it will be wonderful if you could buy me a coffee too!</p>
 			<ul class="actions">
-				<li><a href="https://www.directrelief.org/place/india/" class="button">Learn More</a></li>
+				<li><a href="https://www.buymeacoffee.com/rishiselvakumaran98" class="button">Buy me a Coffee ☕️</a></li>
 			</ul>
 		</section>
 		<section>
