@@ -26,27 +26,35 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-84e09e0806057f3da599.js"
+    "url": "webpack-runtime-2e90898c6ed8f34bd5ab.js"
   },
   {
     "url": "framework-cfaa9893096305e0a213.js"
   },
   {
-    "url": "app-bbd146fc84ba7881d978.js"
+    "url": "app-2ffc68f9fb94edb08fa4.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-d086a7e92e744d0c1873.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4255eadf1f8303fc0ebc8211ff4103bf"
+    "revision": "00710e8749c1b1d840f4996ca2adbd4a"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "c7047792c6f91b88e0d9abc0cd819e92"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "2fa5cf3f2141dad84e10c7c0e2e7c440"
   },
   {
     "url": "polyfill-6c4c46d15db88f16f3e1.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "e2bcb7a19ebf2579c0e84c4dc22a5ab9"
+    "revision": "ea019a6849ab26b15876a06bb2ee9812"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -65,12 +73,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/React-Portfolio-website`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-bbd146fc84ba7881d978.js`))) {
+  if (!resources || !(await caches.match(`/React-Portfolio-website/app-2ffc68f9fb94edb08fa4.js`))) {
     return await fetch(event.request)
   }
 
@@ -83,7 +91,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/React-Portfolio-website/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
